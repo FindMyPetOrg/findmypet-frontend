@@ -57,7 +57,7 @@ const Login = () => {
             <form onSubmit={submitForm}>
                 {/* Email Address */}
                 <div>
-                    <Label htmlFor="email">Email</Label>
+                    <Label id="email" htmlFor="email">Email</Label>
 
                     <Input
                         id="email"
@@ -74,7 +74,7 @@ const Login = () => {
 
                 {/* Password */}
                 <div className="mt-4">
-                    <Label htmlFor="password">Password</Label>
+                    <Label id="password" htmlFor="password">Password</Label>
 
                     <Input
                         id="password"
@@ -110,7 +110,7 @@ const Login = () => {
                 </div>
                 {/* Login */}
                 <div className="flex gap-y-3 flex-col items-center justify-center mt-2">
-                    <Button>Login</Button>
+                    <Button id="Login">Login</Button>
                     <Button onClick={() => handleGoogleAuthentication()} isFlex>
                         Login with Google
                     </Button>

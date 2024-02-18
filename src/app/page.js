@@ -52,11 +52,11 @@ const Home = () => {
                         <br />
                         <div className="flex justify-center items-center gap-5 max-w-full">
                             <Link href="/login">
-                                <Button>Login</Button>
+                                <Button id="Login">Login</Button>
                             </Link>
 
                             <Link href="/register">
-                                <Button>Register</Button>
+                                <Button id="Register">Register</Button>
                             </Link>
                         </div>
                     </div>
